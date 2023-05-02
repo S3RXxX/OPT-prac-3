@@ -12,11 +12,12 @@ class Automata:
         # crear noves regles
 
         """Select number of iterations"""
-        self.__max_iterations = 120
+        # 120 fullscreen, 55 terminal default
+        self.__max_iterations = 55
 
         """Select matrix size:"""
         # 270 fullscreen, 115 terminal default
-        self.__size = 270
+        self.__size = 115
 
         """Select m (number of layers):"""
         self.__m = 1
